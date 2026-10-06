@@ -1,4 +1,4 @@
-# Appendix G — References and standards
+# Appendix G: References and standards
 
 **Scope and access date:** Singapore, with HDB flats as the principal setting. Links below were checked on 28 September 2026 for this working draft. Recheck the live page, its effective date, and the exact project scope before publication or work. The linked authority pages explain requirements; a named Singapore Standard may have a separate, controlled full text. This index is a reader reference and a starting point for the publication bibliography.
 

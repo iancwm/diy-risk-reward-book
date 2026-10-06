@@ -1,6 +1,6 @@
 # 8. Decision Tools and Checklists
 
-A checklist is useful only if it changes a decision. Use the tools in this chapter before buying materials or booking a worker, then revisit them if the scope changes. A blank answer is a reason to pause, not a box to tick optimistically.
+A checklist is useful only if it changes a decision. Use the tools in this section before buying materials or booking a worker, then revisit them if the scope changes. A blank answer is a reason to pause, not a box to tick optimistically.
 
 ## 8.1 The Green/Yellow/Red Check
 

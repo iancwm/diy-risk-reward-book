@@ -27,6 +27,31 @@ Log consequential or changeable statements here during drafting. A status of **o
 
 For each resolved claim, record the exact proposition supported, source title and URL, publisher, date, access date, geographic scope, and any limitation. Treat a missing answer as a drafting issue rather than filling it with a generalization.
 
+## Verification pass — 2026-10-07
+
+A mechanical and live-source verification pass (Days 16–17) produced the following results.
+
+**Mechanical checks (all clean):**
+
+- Every inline footnote reference (`[^ref]`) is defined in the same file, and every definition is used — no orphans in chapters or appendices.
+- No unsupported absolutes. "Always"/"never"/"guarantee"/"void" appear only in negated or cautionary form; insurance and warranty wording is policy-qualified, not an assertion of automatic denial.
+- Retail price inputs (P01–P05) are consistent across Section 11, Section 12, Appendix G, and Appendix H; the S$19.80 two-pack arithmetic is correct.
+- Project categorization is consistent across the boundary matrix, Sections 5–7, and Appendix A: 11 green, 10 yellow, 10 red, matching the 21 project entries.
+- Fixed three terminology inconsistencies: "Chapter" changed to "Section" (Section 2, Section 8, Appendix B) for a single structural term.
+- Fixed three heading inconsistencies: Appendix F, G, and H used an em dash ("Appendix F — …") while A–E used a colon; standardized on the colon.
+
+**Live source re-checks:**
+
+- **S02 (PUB Plumbing Works), re-fetched 2026-10-07:** confirmed the manuscript's simple-works claims. PUB states regulated water-service and sanitary works require a Licensed Plumber "except for simple plumbing works that can be carried out by handymen," and lists tap/mixer replacement, shower hose or showerhead, a flexible hose connected to a tap, flushing-cistern parts (including the flexible hose after the ball valve), and clearing a floor trap among simple works. Toilet-bowl installation/change/relocation is listed under sanitary works (regulated). This supports C02 and C13 at the PUB level.
+- **S03 (HDB Application for a Renovation Permit), re-fetched 2026-10-07:** confirmed "Engage an EMA licenced electrical worker for all electrical work and a BCA trained air-conditioner installer for air-conditioners," and that certain renovations require a Qualified Person (QP). This corroborates C01 and C14 at the HDB level. Note the HDB wording is "BCA trained air-conditioner installer"; the manuscript currently writes "trained installer," which may be sharpened in final wording.
+- **S01 (EMA Engaging Licensed Electrical Workers):** the page returned no clean body text to an automated fetch (navigation-only). Corroborated indirectly by S03's wording, but flag for a manual re-check before publication.
+
+**Remaining before publication (human review, not resolvable by this pass):**
+
+- Qualified trade review of the final electrical, gas, structural, water-intrusion, HVAC, and hazardous-material passages (C08, C16, C17 and Section 7 generally).
+- Legal confirmation of the PUB simple-works interpretation in the HDB-flat context (C13), plus the "recheck before publication" items C10, C18, C19, C20 (standards editions).
+- Dated material baskets and defensible installed-cost ranges for all 21 project profiles (C06) and comparable professional quotes.
+
 ## Sources consulted for the editorial baseline
 
 - **S01:** Energy Market Authority, [Engaging Licensed Electrical Workers](https://www.ema.gov.sg/consumer-information/electricity/engaging-licensed-workers), accessed 2026-09-28. Scope: Singapore electrical installation work; use for the Section 6.2 reclassification.

@@ -1,0 +1,51 @@
+% Shared preamble for the DIY Risk-Reward Framework manuscript proof.
+% Built with XeLaTeX so that Unicode punctuation (em dashes, curly quotes,
+% the ballot-box checkbox) renders without escape work.
+
+\usepackage{fontspec}
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
+
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue!60!black,
+  citecolor=black,
+  bookmarksnumbered=true,
+  pdftitle={The DIY Risk-Reward Framework},
+}
+
+\usepackage{xurl}        % break long URLs
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{calc}         % \real{} used by pandoc table column widths
+
+% pandoc emits \tightlist for compact bullet lists.
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Checklist / ballot-box marker used by the appendices and forms.
+\usepackage{amssymb}
+\newcommand{\chkbox}{\ensuremath{\square}}
+
+% Running headers: show a compact chapter title (the titles already carry
+% their own section number, so drop the duplicated "CHAPTER N." prefix).
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\small\itshape\nouppercase{\leftmark}}
+\fancyhead[RE,LO]{\small\itshape\nouppercase{\rightmark}}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+
+% Keep tables from overflowing; allow wrapping in narrow columns.
+\setlength{\emergencystretch}{3em}
+
+\renewcommand{\arraystretch}{1.15}

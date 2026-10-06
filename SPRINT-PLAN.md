@@ -77,7 +77,32 @@ Turn the 15-section outline and eight appendix stubs into a coherent, sourced fi
 - [x] Revise the executive summary against the full draft, including the exact-scope rule, distinct authority checks, and a reading map.
 - [x] Draft the conclusion as a practical closing decision sequence and turn Section 15 into a guide to the completed appendices.
 - [x] Remove repeated slogan endings from Sections 7 and 12 and add selective transitions between the framework, tools, economics, and obligations chapters.
-- [ ] Complete the source, cost, safety, and terminology verification in Days 16–17 before freezing publication wording.
+- [x] Complete the source, cost, safety, and terminology verification in Days 16–17 before freezing publication wording.
+
+## Days 16–17 progress — verification
+
+- [x] Verify cross-reference integrity: every footnote reference is defined and every definition is used; section/appendix cross-references resolve.
+- [x] Verify safety language: no unsupported absolutes; insurance/warranty wording remains policy-qualified.
+- [x] Verify numerical examples and the five dated retail price inputs for consistency and arithmetic.
+- [x] Cross-check the 21 project categories across the boundary matrix, Sections 5–7, and Appendix A.
+- [x] Fix three "Chapter"/"Section" terminology inconsistencies and three appendix-heading format inconsistencies (F–H em dash → colon).
+- [x] Re-check PUB's simple-plumbing list and HDB's renovation-permit page live (2026-10-07); both corroborate the manuscript's core electrical and plumbing boundaries.
+- [ ] Obtain qualified trade review of the electrical, gas, structural, water-intrusion, HVAC, and hazardous-material passages (deferred to the author; not a machine step).
+- [ ] Confirm the PUB simple-works interpretation in the HDB-flat context and recheck standards editions and the remaining "recheck before publication" sources.
+
+## Days 18–19 progress — publication source
+
+- [x] Add a reproducible LaTeX build (`build/main.tex`, `build/preamble.tex`, `build/build.sh`) that converts each numbered section and appendix from its Markdown source into LaTeX, then compiles a PDF with XeLaTeX.
+- [x] Add title page/front matter, a generated table of contents, running headers, and the appendix switch so the appendices render as "Appendix A–H".
+- [x] Resolve build issues for this toolchain: dollar-sign math interpretation (`-tex_math_dollars`), code-block highlighting (`--no-highlight`), and the `\tightlist`/`\real`/`calc` prerequisites.
+- [x] Produce `build/manuscript.pdf` (68 pages) with no errors or missing characters.
+
+## Day 20 progress — proof and handoff
+
+- [x] Build and inspect the PDF proof; confirm TOC, footnotes (including in-table notes), tables, and appendix labels render.
+- [x] Create the publication-readiness checklist in [PUBLICATION-READINESS.md](PUBLICATION-READINESS.md).
+- [ ] Resolve the remaining cosmetic overfull boxes (Appendix E shopping-list header; Appendix D flat-sketch diagram) in final layout.
+- [ ] Page-by-page proofread, then freeze wording and rebuild.
 
 ## Priority writing backlog
 

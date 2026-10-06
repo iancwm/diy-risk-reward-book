@@ -1,0 +1,67 @@
+% Main manuscript for The DIY Risk-Reward Framework.
+% The per-section LaTeX bodies are generated from the Markdown sources in
+% chapters/ and appendices/ by build.sh (pandoc + post-processing) into build/tex/.
+% Build with: xelatex main.tex (run twice for the table of contents).
+
+\documentclass[11pt,openany]{book}
+
+\input{preamble}
+
+\begin{document}
+
+% ------------------------------------------------------------------
+% Front matter
+% ------------------------------------------------------------------
+\frontmatter
+
+\begin{titlepage}
+  \centering
+  {\Huge\bfseries The DIY Risk-Reward Framework\par}
+  \vspace{1.5em}
+  {\Large\itshape Green and Yellow Light Projects, and Why Red Light Work Is Not Worth Learning\par}
+  \vspace{2.5em}
+  {\large A guide for first-time homeowners in Singapore HDB flats\par}
+  \vfill
+  {\large [Author Name]\par}
+  \vspace{1.5em}
+  {\small Working manuscript --- draft for review\par}
+\end{titlepage}
+
+\tableofcontents
+
+% ------------------------------------------------------------------
+% Main matter
+% ------------------------------------------------------------------
+\mainmatter
+
+\include{tex/01}
+\include{tex/02}
+\include{tex/03}
+\include{tex/04}
+\include{tex/05}
+\include{tex/06}
+\include{tex/07}
+\include{tex/08}
+\include{tex/09}
+\include{tex/10}
+\include{tex/11}
+\include{tex/12}
+\include{tex/13}
+\include{tex/14}
+\include{tex/15}
+
+% ------------------------------------------------------------------
+% Appendices
+% ------------------------------------------------------------------
+\appendix
+
+\include{tex/A}
+\include{tex/B}
+\include{tex/C}
+\include{tex/D}
+\include{tex/E}
+\include{tex/F}
+\include{tex/G}
+\include{tex/H}
+
+\end{document}

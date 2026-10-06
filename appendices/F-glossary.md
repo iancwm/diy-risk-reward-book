@@ -1,4 +1,4 @@
-# Appendix F — Plain-language glossary
+# Appendix F: Plain-language glossary
 
 These terms describe the book's Singapore HDB setting. They are aids to reading, not substitutes for current authority guidance or a qualified person's assessment.
 

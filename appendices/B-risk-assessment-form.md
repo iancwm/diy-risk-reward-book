@@ -54,4 +54,4 @@ Mark **Low / Moderate / High / Unknown** and write one sentence of evidence. A H
 
 **Reassess if:** The opened-up condition, scope, rule, or result differs from this form.
 
-This is a planning record, not an HDB permit, licence, or professional approval. See Chapter 3 for the decision rule and Appendix C for the separate authority checks.
+This is a planning record, not an HDB permit, licence, or professional approval. See Section 3 for the decision rule and Appendix C for the separate authority checks.

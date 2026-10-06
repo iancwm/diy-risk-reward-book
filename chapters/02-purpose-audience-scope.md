@@ -12,6 +12,6 @@ The method is practical risk management. For each candidate project, judge how l
 
 You can use this book in two ways. If a task fits a green or carefully bounded yellow profile, use the profile to plan and check the job. If it falls outside that scope, use the same questions to write a better brief, compare quotes, and record the result. In both cases, the homeowner remains responsible for making an informed decision.
 
-The next chapter turns those questions into a colour decision. Keep the scope of one real project in mind as you read it.
+The next section turns those questions into a colour decision. Keep the scope of one real project in mind as you read it.
 
 [^hdb-permit]: Housing & Development Board, [Application for a Renovation Permit](https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/renovation/application-for-a-renovation-permit), accessed 28 September 2026.

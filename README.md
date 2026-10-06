@@ -4,7 +4,7 @@ Working title: *The DIY Risk-Reward Framework: Green and Yellow Light Projects, 
 
 Primary audience: Singapore HDB homeowners new to DIY. The outline itself is preserved as supplied; the [editorial brief](EDITORIAL-BRIEF.md) records the Singapore-specific changes needed during drafting.
 
-This directory contains working prose for all 15 numbered sections and usable drafts of appendices A–H. The untouched numbered-section outline is preserved in [outline](outline/). The manuscript still needs source verification, trade-safety review, and publication proofing.
+This directory contains working prose for all 15 numbered sections and usable drafts of appendices A–H. The untouched numbered-section outline is preserved in [outline](outline/). A reproducible LaTeX build lives in [build](build/) and produces a PDF proof. The manuscript has passed a mechanical and live-source verification pass; regulated-trade review, final cost baskets, and page-by-page proofing remain before publication.
 
 ## Reading order
 
@@ -40,6 +40,8 @@ See [the drafting sprint](SPRINT-PLAN.md) for the content, review, and LaTeX pre
 Working files: [editorial brief](EDITORIAL-BRIEF.md), [project-profile template](PROJECT-PROFILE-TEMPLATE.md), [claim log](CLAIM-LOG.md), and [Singapore scope notes](SINGAPORE-SCOPE-NOTES.md).
 
 The [project boundary matrix](PROJECT-BOUNDARY-MATRIX.md) records the current colour and stop boundary for all 21 project entries.
+
+Publication tooling and status: [build script](build/build.sh), [LaTeX preamble](build/preamble.tex), and the [publication-readiness checklist](PUBLICATION-READINESS.md).
 
 **Core takeaway from the source outline:** DIY is a risk-management discipline. The highest reward comes from Green-light work. Yellow-light work can be learned with care. Red-light work is not worth learning for DIY execution because the downside is not a crooked shelf—it is fire, flood, collapse, mold, legal liability, or worse.
 

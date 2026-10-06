@@ -1,4 +1,4 @@
-# Appendix H — Sample project plans
+# Appendix H: Sample project plans
 
 These are **illustrative HDB scenarios**, not accounts of completed work. Amounts are dated product inputs or blank quote fields; times are planning allowances. Each plan starts with the precise scope because a changed scope may change the colour, approval, and worker requirements. Use the [risk form](B-risk-assessment-form.md) and [permit checklist](C-permit-trigger-checklist.md) for a real flat.
 
